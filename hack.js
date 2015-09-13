@@ -39,8 +39,8 @@ var exeTimes = 0;
 var intervalId;
 
 //login info.
-var username = process.argv[2] ? process.argv[2] : '659001199108285711';
-var password = process.argv[3] ? process.argv[3] : 'beyourself';
+var username = process.argv[2] ? process.argv[2] : 'username';
+var password = process.argv[3] ? process.argv[3] : 'password';
 var loginForm = {
     identifyType: 1,
     identifyNum: username,
